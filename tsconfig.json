@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target":"ES6",
+        "strict":true,
+        "module":"System",
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "strictNullChecks":false,
+        "strictPropertyInitialization": false,
+    },
+    "files":["Assignment4.ts"],
+    
+}
