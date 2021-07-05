@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "Main.css">
+</head>
+<body onload = "displayAll()">
+    <header>
+        <h1><span style = "font-family:fantasy">Dejimon List</span></h1>
+    </header>
+    <aside id='deji' class="row justify-content-center">
+        
+          <table id="dejimons">
+            <tr><th>Name</th><th>Type</th><th>Info</th><th>Delete</th></tr>
+          </table>
+        
+    </aside>
+    <aside class = "col text-center">
+        <a href = "Add.html" class = "btn btn-secondary btn-lg">Add new Dejimon</a>
+    </aside>
+    <aside id='info'>
+        <aside class="col-12">
+         
+            <table>
+              <tr>
+                <th>Name</th>
+                <td class= "dejiinfo" id='name'></td>
+              </tr>
+              <tr>
+                <th>Type</th>
+                <td class= "dejiinfo" id='type'></td>
+              </tr>
+              <tr>
+                <th>Weight</th>
+                <td class= "dejiinfo" id='weight'></td>
+              </tr>
+              <tr>
+                <th>Height</th>
+                <td class= "dejiinfo" id='height'></td>
+              </tr>
+              <tr>
+                <th id = "abilityinfo"></th>
+                <td class= "dejiinfo" id='ability'></td>
+              </tr>
+              <tr>
+                <th>Overall Strength</th>
+                <td class= "dejiinfo" id='strength'></td>
+              </tr>
+            </table>
+            <aside class="col text-center">
+                <button class="btn btn-dark btn-lg" onclick="back();">Back to Main Menu</button>
+            </aside>
+        </aside>
+       
+    </aside>
+    
+        
+
+
+
+    <script src = "./Assignment4.js"></script>
+</body>
+</html>

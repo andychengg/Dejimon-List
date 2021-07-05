@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Add.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span style="font-family:fantasy">New Dejimon</span>
+        </h1>
+    </header>
+    <aside class="col text-center">
+        <a href = "Main.html" class = "btn btn-secondary btn-lg">Back to Main Menu</a>
+    </aside>
+    <aside class="row justify-content-center">
+        <aside class="col-sm-auto align-self-center">
+            <form>
+                <label>Name:</label>
+                <input type='text' id='addname'><br><br>
+                <label>Weight:</label>
+                <input type="number" id="addweight"><br><br>
+                <label>Height:</label>
+                <input type="number" id="addheight"><br><br>
+                <label>Type:</label>
+                <select id="addtype">
+                    <option value="Lean" id = "Lean">Lean</option>
+                    <option value="Potbelly" id = "Potbelly">Potbelly</option>
+                    <option value="Yorkshire" id = Yorkshire>Yorkshire</option>
+                </select><br><br>
+                <label>Ability:</label>
+                <input type="number" id="addability"><br><br>
+            </form>
+        </aside>
+    </aside>
+    <aside class="col text-center">
+        <button class="btn btn-primary btn-lg" onclick="add();">Add To List</button><br> <br>
+    </aside>
+
+
+    <script src="./Assignment4.js"></script>
+</body>
+
+</html>
